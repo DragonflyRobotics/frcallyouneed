@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "frcallyouneed-github-io"
+version = "0.1.0"
+description = ""
+authors = ["Krishna Shah <kshahusa@gmail.com>"]
+readme = "README.md"
+packages = [{include = "frcallyouneed"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.5.3"
+mkdocs-material = {extras = ["imaging"], version = "^9.5.18"}
+python-markdown-math = "^0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,20 @@
+site_name: Custom Swerve Documentation
+site_url: http://localhost
+repo_url: http://localhost
+edit_uri: http://localhost
+site_description: "Custom Swerve Documentation"
+site_author: People 
+dev_addr: 127.0.0.1:8011
+
+
+nav:
+  - "Read Me": README/README.md
+  - "Programming":
+    - "Intro": Programming/Intro.md
+  - "Mechanical":
+    - "Basics": Mechanical/Basics.md
+  - "Electrical":
+    - "Intro": Electrical/Intro.md
+  - "Strategy":
+    - "Basics": Strategy/Basics.md  
+    - "Applications": Strategy/Applications.md
